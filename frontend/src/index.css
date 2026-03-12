@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.empty-card__button--primary {
+  display: inline-flex; /* inline-flex */
+  align-items: center; /* items-center */
+  padding: 0.75rem 1.5rem; /* py-3 px-6 */
+
+  background: linear-gradient(
+    to right,
+    #4f46e5,
+    #3b82f6
+  ); /* bg-gradient-to-r from-indigo-600 to-blue-600 */
+  color: #ffffff; /* text-white */
+  font-weight: 600; /* font-semibold */
+
+  border-radius: 1rem; /* rounded-xl */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05); /* shadow-lg */
+
+  transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+}
+
+.empty-card__button--primary:hover {
+  background: linear-gradient(
+    to right,
+    #4338ca,
+    #2563eb
+  ); /* hover:from-indigo-700 hover:to-blue-700 */
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.1); /* hover:shadow-xl */
+  transform: scale(1.05); /* hover:scale-105 */
+}
